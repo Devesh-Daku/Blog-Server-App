@@ -1,0 +1,28 @@
+status code describe the type of response sent to the browser
+    200 ok
+    301 resource moved
+    404 not found 
+    500 internal server error
+
+    100 range - informatinal response
+    200 range sucess codes
+    300 redirects
+    400 client erros
+    500 range server errors
+    
+    express allows us to do route between pages and allows us to write clean code 
+    we  will be using ejs handelbar
+
+    code that runs on the server between getting a request and sending a response : middleware
+    middleware example is appfile
+    example use meathods ,get meathods
+
+    logger middleware to log details of every request
+    authentication check middleware for protected routes
+    middleware to parse json data from request return 404 pages
+
+    request 
+    get     : to get resource
+    post    : to create new data
+    delete  : to delete data
+    put     : to update data
